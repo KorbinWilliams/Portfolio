@@ -1,0 +1,29 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.bg-main{
+  background-image: url(https://static.makeuseof.com/wp-content/uploads/2019/03/whats-coding-670x335.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: .5; */
+}
+
+.text-shadow-black{
+  text-shadow: black 2px 2px;
+}
+
+.bg-about{
+  background-color: rgb(65, 65, 119);
+  background-size: cover;
+}
