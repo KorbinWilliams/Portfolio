@@ -52,8 +52,8 @@
     </div>
   </header>
 
-  <section id="about bg-about">
-    <div class="container ">
+  <section id="about">
+    <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="justify-content-center">About me</h2>
@@ -75,22 +75,37 @@
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="services" class="bg-about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto text-center">
           <h2>Projects</h2>
-          <p class="lead">
-            <!-- screenshot each project link to project -->
-          </p>
-          <img src="" alt="">
-          <!-- kanban -->
-          <img src="" alt="">
-          <!-- capstone -->
-          <img src="" alt="">
-          <!-- final -->
-          <img src="" alt="">
-          <!-- Personal project -->
+          <div class="row">
+            <!-- FIXME Button, Href, or just vue? -->
+            <div class="col-12 project-img btn d-flex justify-content-center">
+              <!-- <a href=""> -->
+              <img src="./Assets/keepr.png" alt="keepr">
+              <!-- </a> -->
+            </div>
+            <div class="col-12 project-img d-flex justify-content-center">
+              <!-- <a href=""> -->
+              <img src="./Assets//interviewMe.png" alt="capstone">
+              <!-- </a> -->
+            </div>
+            <div class="col-12 project-img d-flex justify-content-center">
+              <!-- <a href=""> -->
+              <img src="./Assets/cah hackathon.png" alt="personal-project">
+              <!-- </a> -->
+            </div>
+            <!-- <div class="col-12 project-img"><button>
+                <img src="https://place-hold.it/600x300" alt="kanban">
+              </button> </div> -->
+            <!-- yeah this is broken =( -->
+            <!-- <div class="col-12 project-img d-flex justify-content-center"><button>
+                <img src="https://place-hold.it/600x300" alt="personal-project">
+              </button> </div> -->
+            <!-- TODO make, deploy, and add in personal project. -->
+          </div>
         </div>
       </div>
     </div>
@@ -99,9 +114,14 @@
   <section id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto text text-center">
           <h2>Contact Me</h2>
-          <p class="lead"></p>
+          <p class="lead">
+            Email: 1korbin.williams@gmail.com
+          </p>
+          <p>
+            Phone: 1-208-794-3892
+          </p>
         </div>
       </div>
     </div>
@@ -110,7 +130,9 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white"></p>
+      <p class="m-0 text-center text-white">
+        <a href="https://github.com/KorbinWilliams?tab=repositories">My Github</a>
+      </p>
     </div>
     <!-- /.container -->
   </footer>

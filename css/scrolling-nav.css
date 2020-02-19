@@ -24,6 +24,18 @@ section {
 }
 
 .bg-about{
-  background-color: rgb(65, 65, 119);
+  background-color: rgb(58, 58, 246);
   background-size: cover;
 }
+
+.project-img{
+  padding-bottom: 3rem;
+  height: 50vh;
+  width: auto;
+}
+
+/* 
+.project-btn{
+  height: 200px;
+  width: 200px;
+} */
