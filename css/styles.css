@@ -6,7 +6,12 @@ html {
 
 #page-top {
   background-image: url(../Assets/polygons.jpg);
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
 }
 
 .bg-main {
@@ -31,13 +36,12 @@ html {
 
 .project-img {
   padding-bottom: 3rem;
-  height: 100%;
+  height: 80vh;
   width: 100%;
 }
 
-.img-test {
-  height: 50rem;
-  width: 70rem;
+.footer {
+  height: 10vh;
 }
 
 /* 
