@@ -10,9 +10,14 @@ html {
   background-size: cover;
 }
 
-nav {
-  width: 100%;
+#headshot {
+  height: 300px;
+  width: 300px;
 }
+
+/* nav {
+  width: 100%;
+} */
 
 .bg-main {
   background-image: url(https://static.makeuseof.com/wp-content/uploads/2019/03/whats-coding-670x335.jpg);
