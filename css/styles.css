@@ -45,6 +45,11 @@ html {
   width: 100%;
 }
 
+.modal {
+  text-shadow: none;
+  color: black;
+}
+
 .footer {
   height: 10vh;
 }
