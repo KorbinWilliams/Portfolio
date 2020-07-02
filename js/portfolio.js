@@ -34,20 +34,3 @@
     offset: 56,
   });
 })(jQuery); // End of use strict
-
-// NOTE Coding challenge?
-// let Arr = [1, 2, 3, 4, 5]
-// let targetVal = 8
-
-// function sumArr(Arr, targetVal) {
-//   let val = 0
-//   let initialVal = Arr[val]
-//   for (let i = 0; i < Arr.length; i++) {
-//     let item = Arr.Find(item => initialVal - item == targetVal)
-//     let newArr = [item, targetVal]
-//     if (item == undefined) {
-//       val += 1
-//     }
-//     return newArr
-//   }
-// }
